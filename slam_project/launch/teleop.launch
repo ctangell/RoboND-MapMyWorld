@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For launcing the teleop command -->
+
+<launch>
+  <node name="teleop" pkg="slam_project" type="teleop"  output="screen" >
+  	<remap from="~cmd_vel" to="/cmd_vel"/>
+  </node>
+</launch>
