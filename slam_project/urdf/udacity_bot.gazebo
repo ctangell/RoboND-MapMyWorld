@@ -96,7 +96,7 @@
         </noise>
       </ray>
       <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-        <topicName>/udacity_bot/laser/scan</topicName> <!-- /scan /udacity_bot/laser/scan-->
+        <topicName>/scan</topicName> <!-- /scan /udacity_bot/laser/scan-->
         <frameName>hokuyo</frameName>
       </plugin>
     </sensor>
